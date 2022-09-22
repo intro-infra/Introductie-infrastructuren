@@ -32,9 +32,9 @@ sudo systemctl enable apache2
 
 wget https://github.com/osTicket/osTicket/releases/download/v1.15.4/osTicket-v1.15.4.zip
 
-# install software "unzip"
+# install software Unzip
 
-change this line to install "unzip"
+change this line to install Unzip
 
 # unzip osticket in directory osTicket
 
