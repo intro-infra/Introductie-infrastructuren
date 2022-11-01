@@ -32,7 +32,7 @@ sudo mysql -e "CREATE USER 'admin'@'%' IDENTIFIED BY 'osticket';"
 # grant all privileges on osticket to  user admin
 sudo mysql -e "GRANT ALL PRIVILEGES ON osticket.* TO 'admin'@'%';"
 #  flush privileges
-sudo mysql -e "FLUSH PRIVILEGES"
+sudo mysql -e "FLUSH PRIVILEGES;"
 
 # change directory to the home directory
 
